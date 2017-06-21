@@ -33,7 +33,10 @@ while i < len(colors):
     print("When I was %d, my favorite color was %s" % (i, colors[i]))
     i = i + 1
 
+# slicing/indexing --> print item of index 1 and 2
+print(colors[1:3]) # output --> ['green', 'blue']
+# print item of index 0, 1 and 2
+print(colors[:3])  # output --> ['red', 'green', 'blue']
+
 # print list of even number - using list comprehension
 print ([x for x in range(2, 10) if not x % 2])
-
-print('=' * 20)
