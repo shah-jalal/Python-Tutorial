@@ -36,3 +36,4 @@ while i < len(colors):
 # print list of even number - using list comprehension
 print ([x for x in range(2, 10) if not x % 2])
 
+print('=' * 20)
