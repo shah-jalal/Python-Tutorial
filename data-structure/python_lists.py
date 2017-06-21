@@ -8,13 +8,13 @@ Lists:
 # Define/create a list
 my_list = [1, 2, 3, 4, 5]
 
-# Accessing the first value from list
+# Accessing the first value from the list
 print(my_list[0]) # output --> 1
 
 # Accessing the last value from the list
 print(my_list[4]) # output --> 5
 
-# Accessing all the value from lists
+# Accessing all the value from the lists
 item = 0
 while item < len(my_list):
     print("my_list[%d] --> %s" % (item, my_list[item]))
@@ -22,7 +22,12 @@ while item < len(my_list):
 
 # print color of my choice from the list
 colors = ["red", 'green', 'yellow', 'blue']
-
+# add item to the list
+colors.append("while")
+# insert an item to the list - it will add an item into a specific index
+colors.insert(4, "black")
+# delete an item from the list
+colors.remove("yellow")
 i = 0
 while i < len(colors):
     print("When I was %d, my favorite color was %s" % (i, colors[i]))
